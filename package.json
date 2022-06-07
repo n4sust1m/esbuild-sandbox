@@ -1,0 +1,25 @@
+{
+  "name": "esbuild-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/app.jsx --bundle --outfile=dist/out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/n4sust1m/esbuild-sandbox.git"
+  },
+  "author": "nasustim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n4sust1m/esbuild-sandbox/issues"
+  },
+  "homepage": "https://github.com/n4sust1m/esbuild-sandbox#readme",
+  "dependencies": {
+    "esbuild": "^0.14.42",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
